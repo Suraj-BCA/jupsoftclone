@@ -7,8 +7,6 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,6 +25,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+        rel="stylesheet"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} font-sans antialiased m-0 p-0`}
       >

@@ -2,8 +2,13 @@
 import Link from "next/link";
 import Navbar from "./HomeNav";
 import HomeHeader from "./HomeHeader";
-import HomeMain from "./HomeMain";
+import HomeMain from "./HomeFooter";
 import HomeSideMenu from "./HomeSideMenu";
+import HomeFooter from "./HomeFooter";
+import HomeHeadMenu from "./HomeHeadMenu";
+import HomeQuickStatistic from "./components/HomeQuickStatistic";
+import HomeStudentStrength from "./components/HomeStudentStrength";
+
 
 
 export default function HomePage() {
@@ -13,14 +18,17 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="h-screen flex flex-col ">
+    <div className="h-screen flex flex-col bg-gray-200">
       <div className="">
         <Navbar />
       </div>
       <div>
       <HomeHeader />
       </div>
-      <HomeSideMenu />
+      <HomeHeadMenu />
+      <HomeQuickStatistic/>
+      <HomeStudentStrength/>
+      <HomeFooter/>
 
     </div>
   );

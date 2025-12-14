@@ -5,7 +5,7 @@ import React from 'react'
 function HomeHeader() {
   return (
     <>
-      <div className='flex justify-between items-center  h-14 border-b border-b-gray-200 '>
+      <div className='flex justify-between items-center  h-14 border-b border-b-gray-200 bg-white'>
         <div className='flex gap-4'>
           <div className='text-[22px] font-[500] uppercase ml-4'>
             <h3>JUPSOFT INTERNATIONAL SCHOOL</h3>
