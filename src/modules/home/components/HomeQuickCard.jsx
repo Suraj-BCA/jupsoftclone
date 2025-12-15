@@ -3,7 +3,7 @@ import React from 'react'
 function HomeQuickCard() {
   return (
     <div>
-      <div className='bg- w-[28rem] rounded-lg items-center m-10 h-28 bg-white'>
+      <div className='bg- w-[28rem] rounded-2xl items-center m-10 h-28 bg-white'>
         <div className='flex justify-between items-center pl-4 pt-3'>
           <div className='w-[3rem]' ><img className='' src="https://econnectapp.jupsoft.com/assets-new/images/userstatusnew.png" alt="" /></div>
           <div>

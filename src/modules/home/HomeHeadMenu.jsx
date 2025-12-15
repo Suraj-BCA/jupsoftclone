@@ -3,7 +3,7 @@ import React from 'react'
 function HomeHeadMenu() {
   return (
     <div>
-      <div className='flex justify-between items-center pt-3 pb-1 border-b-[1px]  ' style={{backgroundImage:"url('https://econnectapp.jupsoft.com/assets-new/images/teacherdashboardbg.jpg')"}}>
+      <div className='fixed w-full mt-[7.5rem]  flex justify-between items-center pt-3 pb-1 border-b-[1px]  ' style={{backgroundImage:"url('https://econnectapp.jupsoft.com/assets-new/images/teacherdashboardbg.jpg')"}}>
         <div className='flex justify-between gap-6 pl-8 text-[16px] opacity-100'>
           <div className="flex items-center gap-2 hover:text-blue-800 cursor-pointer ">
             <i className="ri-line-chart-line text-lg"></i>
