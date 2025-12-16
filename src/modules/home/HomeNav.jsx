@@ -14,15 +14,15 @@ export default function Navbar() {
         <div className="w-full  bg-blue-900 px-6 py-4 flex items-center justify-between h-16">
           <img className="w-36" src="https://jtpleconnect.s3.ap-south-1.amazonaws.com/Worksheet/ResellerPanel/ProdPic/34f58814-aabe-4e06-82ca-bd9b67c2ce63.png?X-Amz-Expires=18000&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA446H7QDAXHFX764B%2F20251215%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251215T161253Z&X-Amz-SignedHeaders=host&X-Amz-Signature=ad8f8b3d3b08429f9f8880e71f48f5600755c462a212e35097453103e14c8e10" alt="" />
           <div className=" flex items-center gap-4 text-white text-[17px] font-normal " >
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black " href="http://" target="_blank" rel="noopener noreferrer">Visitors</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Lead</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Reception</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Registration</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Student Mgmt</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Attendance</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Fee Mgmt</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Transport</a>
-            <a className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Activity Mgmt</a>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black " href="http:/visitor" target="_blank" rel="noopener noreferrer">Visitors</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Lead</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Reception</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Registration</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Student Mgmt</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Attendance</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Fee Mgmt</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Transport</Link>
+            <Link className="inline-block px-4 py-2.5 rounded-md transition-all duration-200 hover:bg-white hover:text-black" href="http://" target="_blank" rel="noopener noreferrer">Activity Mgmt</Link>
             <div
               className="
     inline-flex

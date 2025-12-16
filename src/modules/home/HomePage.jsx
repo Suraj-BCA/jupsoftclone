@@ -25,13 +25,15 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="h-screen flex flex-col bg-slate-100 pt-[]">
+    <div className="h-screen flex flex-col bg-slate-100">
       <div className="">
         <Navbar />
       </div>
       <HomeHeader />
       <HomeHeadMenu />
-      <div className="pt-[11rem]"> <HomeQuickStatistic /></div>
+      <div className="pt-[11rem]">
+        <HomeQuickStatistic />
+      </div>
      
       <div className="flex gap-8">
         <HomeStudentStrength />

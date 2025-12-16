@@ -1,6 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import HomeFooter from "@/modules/home/HomeFooter";
+import Navbar from "@/modules/home/HomeNav";
+import HomeHeader from "@/modules/home/HomeHeader";
+import HomeHeadMenu from "@/modules/home/HomeHeadMenu";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,6 +36,12 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} font-sans antialiased m-0 p-0`}
       >
+         <div className="">
+        <Navbar />
+      </div>
+      <HomeHeader />
+      {/* <HomeHeadMenu /> */}
+        <HomeFooter/>
         {children}
       </body>
     </html>
